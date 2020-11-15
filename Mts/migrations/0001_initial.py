@@ -20,6 +20,9 @@ class Migration(migrations.Migration):
                 ('gender', models.CharField(max_length=10)),
                 ('age', models.CharField(max_length=10)),
                 ('sym', models.CharField(max_length=50)),
+                (hb = models.CharField(max_length=10)),
+                (sbp = models.CharField(max_length=10)),
+                (dbp = models.CharField(max_length=10)),
             ],
         ),
     ]
